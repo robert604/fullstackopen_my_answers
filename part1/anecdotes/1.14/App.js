@@ -40,7 +40,7 @@ const App = () => {
    
   const [selected, setSelected] = useState(0)
   const [votes, setVotes] = useState(new Array(anecdotes.length).fill(0))
-  const indexOfMax = votes.indexOf(Math.max(...votes))
+  const indexOfMax = votes.indexOf(Math.max(...votes));
 
   return (
     <div>
